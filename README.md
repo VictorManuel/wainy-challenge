@@ -28,10 +28,10 @@ Una aplicación de evaluacion construida para Wayni.
 
 ### **1. Clonar el repositorio**
 ```bash
-git clone <url-del-repositorio>
+git clone git@github.com:VictorManuel/wainy-challenge.git
 cd wayni-challenge
 ```
-
+`
 ### **2. Instalar dependencias**
 ```bash
 npm install
@@ -47,17 +47,6 @@ yarn dev
 ```
 
 La aplicación estará disponible en: **http://localhost:3000**
-
-
-## 📱 Scripts Disponibles
-
-```bash
-npm run dev          # Ejecuta el servidor de desarrollo
-npm run build        # Construye la aplicación para producción
-npm run start        # Ejecuta la aplicación en modo producción
-npm run lint         # Ejecuta ESLint para verificar el código
-npm run type-check   # Verifica los tipos de TypeScript
-```
 
 ## 📁 Estructura de Carpetas y Archivos
 
