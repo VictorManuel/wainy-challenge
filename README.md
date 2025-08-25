@@ -183,3 +183,75 @@ wayni-challenge/
 - Los componentes UI dependen de abstracciones (stores, queries)
 - Los stores dependen de tipos, no de implementaciones concretas
 - Las queries actúan como intermediarios entre UI y servicios
+
+# ENUNCIADO
+
+## Waynimovil React/NextJS Technical Challenge
+
+### Objetivo
+Desarrollar la aplicación **WayniWallet** utilizando React o NextJS, replicando el diseño proporcionado y simulando funcionalidades básicas de transferencias entre usuarios.
+
+### Diseño
+[Figma - WayniWallet](https://www.figma.com/design/ppzcbVZJLzYfEvw3Yokt9N/WayniWallet)
+
+---
+
+## Requerimientos Técnicos
+
+### Configuración del Proyecto
+- React (con Vite o Create React App) o Next.js  
+- TypeScript  
+- Hooks  
+- Componentes funcionales  
+- ES6+  
+
+### Tecnologías Requeridas
+- React / Next.JS  
+- TypeScript  
+- localStorage o IndexedDB  
+- Tanstack/react-query  
+- Zustand  
+- Tailwind CSS  
+- React Router o rutas de Next.js  
+
+---
+
+## Funcionalidades Principales
+
+### 1. Home Screen
+- Mostrar el nombre y avatar del usuario principal.  
+- Visualizar el balance actual con persistencia en el dispositivo.  
+- Listar contactos frecuentes para transferencias rápidas (mínimo 10 usuarios).  
+  - Al seleccionar un contacto, redirige a la pantalla **Send Again** con su información.  
+- Mostrar el historial de transacciones recientes con scroll.  
+- Implementar **skeletons** para la carga de usuarios (*opcional, suma puntos extra*).  
+
+### 2. Transfers Screen
+[Figma - WayniWallet](https://www.figma.com/design/ppzcbVZJLzYfEvw3Yokt9N/WayniWallet)  
+
+- Mostrar la lista de transferencias realizadas.  
+- Visualizar avatar, nombre del destinatario, fecha y monto.  
+- Filtrar transferencias por fecha (*opcional, suma puntos extra*).  
+
+### 3. Profile Screen
+- Mostrar información del usuario actual:  
+  - Datos personales.  
+  - Información de ubicación.  
+  - Datos de contacto.  
+  - ID único del usuario.  
+
+---
+
+## Entregable
+1. Código fuente en un **repositorio Git público**.  
+2. Archivo **README** con:  
+   - Instrucciones claras para la instalación.  
+   - Documentación sobre la arquitectura y tecnologías empleadas.  
+
+---
+
+## Notas
+- Los datos del usuario principal y los contactos frecuentes deben obtenerse de la API [randomuser.me](http://randomuser.me/).  
+- Se valorará el uso de **arquitectura limpia** y la implementación de principios **SOLID**.  
+- Es fundamental mantener el código modular, reutilizable y bien estructurado.  
+- Se premiará la creatividad y features extras en la implementación.  
